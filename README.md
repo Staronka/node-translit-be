@@ -1,21 +1,19 @@
-#  [![Build Status](https://secure.travis-ci.org/Sontan/translit-be.png?branch=master)](http://travis-ci.org/Sontan/translit-be)
-
 > Belarusian transliteration library.
 
 
 ## Install
 
 ```sh
-$ npm install --save translit-be
+$ npm install --save translit-be2ascii
 ```
 
 
 ## Usage
 
 ```js
-var translit-be = require('translit-be');
+var translit = require('translit-be2ascii');
 
-translit-be('Rainbow');
+translit.toASCII("Ягор Кур'яновiч");
 ```
 
 
