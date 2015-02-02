@@ -1,0 +1,38 @@
+{
+  "name": "translit-be2ascii",
+  "version": "0.0.1",
+  "description": "Node library for turning strings that russian and belarusian characters into ascii compliant text.",
+  "homepage": "https://github.com/Staronka/node-translit-be",
+  "author": {
+    "name": "Egor Kuryanovich",
+    "email": "me@sontan.name",
+    "url": "http://sontan.name"
+  },
+  "repository": "sontan/translit-be",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "translit-be",
+    "belarusian",
+    "transliteration",
+    "translit",
+    "be",
+    "by"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0",
+    "grunt-mocha-cli": "^1.11.0",
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
