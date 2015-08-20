@@ -105,7 +105,7 @@ function toASCII(string)
   return string.split('').map(function (character) {
     if (character.charCodeAt(0) > 127) {
       return typeof characterMap[character] !== 'undefined' ?
-        characterMap[character] : '~';
+        characterMap[character] : '-';
     } else {
       return character;
     }
