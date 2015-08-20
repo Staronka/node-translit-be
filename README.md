@@ -14,6 +14,8 @@ $ npm install --save translit-be2ascii
 var translit = require('translit-be2ascii');
 
 translit.toASCII("Ягор Кур'яновiч");
+// Yagor Kuryanovich
+
 ```
 
 
