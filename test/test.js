@@ -1,11 +1,11 @@
 /*global describe, it */
 'use strict';
-var assert = require('assert');
-var translitBe = require('../');
+var mocha = require('mocha');
+var should = require('should');
+var translit = require('../');
 
 describe('translit-be node module', function () {
-    it('must have at least one test', function () {
-        translitBe();
-        assert(false, 'I was too lazy to write any tests. Shame on me.');
+    it('simple transliteration', function () {
+        translit.toASCII("Ягор Кур'яновiч").should.be.equal("Yagor Kur'yanovich");
     });
 });

@@ -18,6 +18,10 @@ translit.toASCII("Ягор Кур'яновiч");
 
 ```
 
+## Test
+```bash
+npm run test
+```
 
 ## License
 
